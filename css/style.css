@@ -1,0 +1,26 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color: black;
+}
+
+#background-sky, #canvas1{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#backround-sky{
+  z-index: 5;
+}
+#canvas1{
+  z-index: 10;
+}
